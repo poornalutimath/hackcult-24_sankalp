@@ -83,17 +83,18 @@ This project leverages **Artificial Intelligence** and **Natural Language Proces
    docker build -t resume-shortlist .
    docker run -p 5000:5000 resume-shortlist
 
-Usage
-Upload resumes (PDF, DOCX, or text formats) and a job description.
-View ranked candidates based on job fit.
-Explore visual insights and download feedback for candidates.
+##Usage
+-**Upload resumes (PDF, DOCX, or text formats) and a job description.
+-**View ranked candidates based on job fit.
+-**Explore visual insights and download feedback for candidates.
 
-Future Enhancements
-Integration with LinkedIn for real-time resume fetching.
-Support for multilingual resumes and job descriptions.
-Advanced bias detection to promote diversity in hiring.
-Cloud integration for scalable deployment in enterprise environments.
-Team Members
+##Future Enhancements
+-** Integration with LinkedIn for real-time resume fetching.
+- ** Support for multilingual resumes and job descriptions.
+- ** Advanced bias detection to promote diversity in hiring.
+- ** Cloud integration for scalable deployment in enterprise environments.
+
+##Team Members
 [Poorna]
 Role: Backend Development & NLP
 Contributions: Developed resume parsing and job matching algorithms.
@@ -114,8 +115,10 @@ Role: Data Preprocessing & Model Optimization
 Contributions: Prepared datasets and optimized the AI models.
 Contact: teammate3.email@example.com
 
-Acknowledgments
+##Acknowledgments
 We thank the hackathon organizers for providing a platform to innovate. Inspiration for this project was drawn from challenges faced in recruitment processes, and our goal is to make hiring fairer and more efficient.
+
+
 
 
 
