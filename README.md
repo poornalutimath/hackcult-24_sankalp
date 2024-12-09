@@ -64,3 +64,58 @@ This project leverages **Artificial Intelligence** and **Natural Language Proces
 1. Clone the repository:
    ```bash
     git clone https://github.com/your-repo/resume-shortlist-ai.git
+
+2. Navigate to the project directory:
+   bash
+   Copy code
+   cd resume-shortlist-ai
+3. Install dependencies:
+   bash
+   Copy code
+   pip install -r requirements.txt
+   Run the application:
+   bash
+   Copy code
+   python app.py
+4. For Docker users:
+   bash
+   Copy code
+   docker build -t resume-shortlist .
+   docker run -p 5000:5000 resume-shortlist
+
+Usage
+Upload resumes (PDF, DOCX, or text formats) and a job description.
+View ranked candidates based on job fit.
+Explore visual insights and download feedback for candidates.
+
+Future Enhancements
+Integration with LinkedIn for real-time resume fetching.
+Support for multilingual resumes and job descriptions.
+Advanced bias detection to promote diversity in hiring.
+Cloud integration for scalable deployment in enterprise environments.
+Team Members
+[Poorna]
+Role: Backend Development & NLP
+Contributions: Developed resume parsing and job matching algorithms.
+Contact: poorna.email@example.com
+
+[Teammate 1 Name]
+Role: Frontend Development & Visualization
+Contributions: Designed the user interface and insights visualization.
+Contact: teammate1.email@example.com
+
+[Teammate 2 Name]
+Role: DevOps & Deployment
+Contributions: Handled Dockerization and deployment.
+Contact: teammate2.email@example.com
+
+[Teammate 3 Name]
+Role: Data Preprocessing & Model Optimization
+Contributions: Prepared datasets and optimized the AI models.
+Contact: teammate3.email@example.com
+
+Acknowledgments
+We thank the hackathon organizers for providing a platform to innovate. Inspiration for this project was drawn from challenges faced in recruitment processes, and our goal is to make hiring fairer and more efficient.
+
+
+
